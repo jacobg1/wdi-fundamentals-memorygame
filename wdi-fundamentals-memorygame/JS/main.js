@@ -30,7 +30,7 @@ var checkForMatch = function () {
 	} else {
 		alert("Sorry, try again.");
 	}
-}
+};
 
 var flipCard = function (cardId) {
 	cardsInPlay.push(cards[cardId].rank);
