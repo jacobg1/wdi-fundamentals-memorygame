@@ -103,6 +103,9 @@ span {
 	height: 0;
 	font-size: 0;
 }
+button {
+	float: left;
+}
 footer {
 	text-transform: uppercase;
 	padding: 0 20px 0 20px;
