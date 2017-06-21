@@ -1,2 +1,2 @@
 # wdi-fundamentals-memorygame
-memorygame project 
+memorygame project-final
