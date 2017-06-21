@@ -87,6 +87,7 @@ var createBoard = function() {
 
 createBoard();
 
+//rest button htmlL <button id="resetButton">Reset Board</button>
 resetButton.addEventListener('click', resetBoard);
 
 

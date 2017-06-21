@@ -7,15 +7,16 @@ h1 {
 	margin: 0;
 }
 header {
-	background-color: #7200EA;
+	background: #7200EA;
 	padding: 20px 15px 20px 15px;
 }
 nav {
 	padding: 20px 0px 20px 0px;
 	margin: 0 auto;
-	background: -webkit-linear-gradient(left top, red, #3FA2E5); 
-  	background: -o-linear-gradient(bottom right, red, #3FA2E5); 
-  	background: -moz-linear-gradient(bottom right, red, #3FA2E5); 
+	background: rgba(114, 0, 234, 1);
+	background: -webkit-linear-gradient(left top, rgba(0,0,0,0), rgba(114, 0, 234, 1)); 
+  	background: -o-linear-gradient(bottom right, rgba(0,0,0,0), rgba(114, 0, 234, 1)); 
+  	background: -moz-linear-gradient(bottom right, rgba(0,0,0,0), rgba(114, 0, 234, 1)); 
   	background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(114, 0, 234, 1)); 
 
 }
@@ -33,10 +34,10 @@ p {
 body {
 	text-align: center;
 	margin: 0;
-	background-color: #d3dafd;
-	background: -webkit-linear-gradient(left top, red, #3FA2E5); 
-  	background: -o-linear-gradient(bottom right, red, #3FA2E5); 
-  	background: -moz-linear-gradient(bottom right, red, #3FA2E5); 
+	background: #7200EA;
+	background: -webkit-linear-gradient(left top, red, #7200EA); 
+  	background: -o-linear-gradient(bottom right, red, #7200EA); 
+  	background: -moz-linear-gradient(bottom right, red, #7200EA); 
   	background: linear-gradient(to bottom right, red, #7200EA); 
 }
 a {
@@ -102,8 +103,8 @@ span {
 	margin: 0 auto;
 }
 .name {
-	color: #F15B31;
-	font-weight: 700;
+	color: red;
+	font-weight: 900;
 }
 .clearfix:after {
 	visibility: hidden;
