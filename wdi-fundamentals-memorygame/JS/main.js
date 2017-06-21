@@ -52,9 +52,7 @@ var checkForMatch = function() {
 	} else {
 		setTimeout(function(){ alert("Sorry try again :("); }, 600);
 		setTimeout(function(){ resetBoard(); }, 800);
-
 	}
-
 };
 
 
@@ -83,7 +81,7 @@ var createBoard = function() {
 		cardElement.setAttribute('src', 'images/back.png');
 		cardElement.setAttribute('data-id', i);
 		cardElement.addEventListener('click', flipCard);
-	document.getElementById('game-board').appendChild(cardElement);
+		document.getElementById('game-board').appendChild(cardElement);
 }
 };
 

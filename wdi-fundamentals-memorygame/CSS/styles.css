@@ -7,13 +7,17 @@ h1 {
 	margin: 0;
 }
 header {
-	background-color: #335588;
+	background-color: #7200EA;
 	padding: 20px 15px 20px 15px;
 }
 nav {
-	background-color: #00A6B3;
 	padding: 20px 0px 20px 0px;
 	margin: 0 auto;
+	background: -webkit-linear-gradient(left top, red, #3FA2E5); 
+  	background: -o-linear-gradient(bottom right, red, #3FA2E5); 
+  	background: -moz-linear-gradient(bottom right, red, #3FA2E5); 
+  	background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(114, 0, 234, 1)); 
+
 }
 main {
 	width: 850px;
@@ -21,13 +25,19 @@ main {
 }
 p {
 	font-family: "Droid Serif", Serif;
+	color: white;
 	line-height: 26px;
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: 400;
 }
 body {
 	text-align: center;
 	margin: 0;
 	background-color: #d3dafd;
+	background: -webkit-linear-gradient(left top, red, #3FA2E5); 
+  	background: -o-linear-gradient(bottom right, red, #3FA2E5); 
+  	background: -moz-linear-gradient(bottom right, red, #3FA2E5); 
+  	background: linear-gradient(to bottom right, red, #7200EA); 
 }
 a {
 	font-family: "Raleway", sans-serif;
@@ -43,10 +53,10 @@ a:hover {
 }
 h2 {
 	font-family: "Raleway", sans-serif;
-	color: #0D2C40;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 15px;
 }
 h3 {
 	font-family: "Raleway", sans-serif;
@@ -57,7 +67,6 @@ h3 {
 }
 img {
 	margin: 40px, 8px;
-
 }
 span {
 	color: white;
@@ -71,21 +80,22 @@ span {
 	float: right;
 }
 .slash{
-	color: #339966;
+	color: white;
 	margin: 0 auto;
 	font-size: 15px;
 }
-.social {
+
+.link {
 	font-family: "Raleway", sans-serif;
-	color: #339966;
+	color: white;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 15px;
 	margin: 0 auto;
 }
-.link {
+.friends {
 	font-family: "Raleway", sans-serif;
-	color: #339966;
+	color: black;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 15px;
@@ -108,8 +118,8 @@ button {
 }
 footer {
 	text-transform: uppercase;
+	background-color: #7200EA;
 	padding: 0 20px 0 20px;
-	background-color: #335588;
 	color: white;
 	font-size: 14px;
 	letter-spacing: .08em;
